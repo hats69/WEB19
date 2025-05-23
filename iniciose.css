@@ -60,12 +60,21 @@ body {
 }
 
 .cat2 p {
-  position: center;
+    position: absolute;
   white-space: nowrap;
   color: black;
   font-size: 3.5rem;
+  animation: mover-letras s linear infinite;
 }
 
+@keyframes mover-letras {
+  from {
+    left: 100%;
+  }
+  to {
+    left: -100%;
+  }
+}
 /* Checkout */
 .checkout-container {
     max-width: 500px;
