@@ -48,11 +48,8 @@ body {
     left: -100%;
   }
 }
-
-
 .cat2 {
-    font-family: monospace;
-  width: 100%;
+ width: 100%;
   overflow: hidden;
   background-color: white; 
   height: 70px; 
@@ -60,11 +57,11 @@ body {
 }
 
 .cat2 p {
-    position: absolute;
+  position: absolute;
   white-space: nowrap;
   color: black;
   font-size: 3.5rem;
-  animation: mover-letras s linear infinite;
+  animation: mover-letras 20s linear infinite;
 }
 
 @keyframes mover-letras {
@@ -75,6 +72,8 @@ body {
     left: -100%;
   }
 }
+
+
 /* Checkout */
 .checkout-container {
     max-width: 500px;
